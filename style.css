@@ -1,0 +1,74 @@
+.entries{
+padding: 10px;
+margin: 0 auto;
+margin-top: 15%;
+border: 1px solid black;
+border-radius: 1em;
+background-color: rgba(0, 0, 0, 0.5);
+color: white;
+}
+.entries input{
+  background-color: rgba(0, 0, 0, 0.5);
+  border: none;
+  outline: none;
+  border-radius: 1em;
+  padding: 10px;
+  color: white;
+}
+body{
+  background-image: url("bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.searchresults{
+  padding: 10px;
+  margin: 0 auto;
+  margin-top: 5%;
+  border: 1px solid black;
+  border-radius: 1em;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+
+}
+table{
+
+}
+th{
+padding: 20px; 
+padding-right: 100px;
+}
+
+/* Styles for the add cheats page */
+
+.inputs{
+  padding: 25px;
+  margin: 0 auto;
+  margin-top: 15%;
+  border: 1px solid black;
+  border-radius: 1em;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+.inputs input{
+  background-color: rgba(0, 0, 0, 0.5);
+  border: none;
+  outline: none;
+  border-radius: 1em;
+  padding: 10px;
+  color: white;
+  margin-bottom: 10px;
+  display: block;
+}
+.inputs input[type=text]{
+  width: 100%;
+}
+.btncontainer{
+  margin-top: 10px;
+}
+.inputs table{
+  color: white;
+}
+.inputs table td{
+  padding-bottom: 10px;
+}
