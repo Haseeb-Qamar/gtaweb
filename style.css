@@ -1,11 +1,12 @@
 .entries{
 padding: 10px;
 margin: 0 auto;
-margin-top: 15%;
+margin-top: 5%;
 border: 1px solid black;
 border-radius: 1em;
 background-color: rgba(0, 0, 0, 0.5);
 color: white;
+position: relative;
 }
 .entries input{
   background-color: rgba(0, 0, 0, 0.5);
@@ -14,6 +15,36 @@ color: white;
   border-radius: 1em;
   padding: 10px;
   color: white;
+}
+.floater {
+position: absolute;
+right: -40%;
+top:30%;
+width: 130px;
+}
+.help{
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 1em;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  display: none;
+}
+.help span{
+
+  display: block;
+}
+.q{
+  color: black;
+}
+i:hover ~ div{
+display: block;
+}
+.floater div{
+
+right:-65%;
+top: 30%;
+
 }
 body{
   background-image: url("bg.jpg");
@@ -35,10 +66,14 @@ table{
 
 }
 th{
-padding: 20px; 
+padding: 20px;
 padding-right: 100px;
 }
 
+.radios input{
+  margin-right: 20px;
+  margin-top:20px;
+}
 /* Styles for the add cheats page */
 
 .inputs{
