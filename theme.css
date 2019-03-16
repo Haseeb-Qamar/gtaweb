@@ -1,0 +1,147 @@
+--root{
+
+}
+@font-face {
+  font-family: brass;
+  src: url('assets/regular.otf');
+}
+html, body, .container{
+    height: 100%;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: black;
+
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(52, 58, 64, .5);
+  border-radius: 1em;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(52, 58, 64, .5);
+}
+
+/* For the slider */
+.slidecontainer{
+margin-top: 5%;
+margin: 0 auto;
+/* border: 5px solid blue; */
+}
+.slides{
+/* border: 5px solid green; */
+
+position: absolute;
+left: 65px;
+top: -30px;
+  /* display: none; */
+
+}
+.marquee{
+  position: absolute;
+  bottom: 0px;
+  left: 130px;
+
+  color: white;
+  /* border: 1px solid white; */
+
+}
+.row{
+  margin: 0px;
+}
+.box{
+  background-color: rgba(52, 58, 64, 1);
+  border: 3px solid black;
+  width: 400px;
+  height: 400px;
+  margin-top: 15%;
+  position: relative;
+  border-radius: 1em;
+
+
+}
+.hidden{
+  display: none;
+}
+.slides img{
+  border-radius: 1em;
+  border: 5px solid black;
+
+
+}
+.container-fluid{
+    margin: 0;
+    padding: 0px;
+}
+
+.bg{
+    background-image: url(assets/bg.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.nav-item .nav-link{
+/*    font-size: 14px;*/
+}
+.contents{
+  display: none;
+  margin-top: 1%;
+  background-color: rgba(0,0,0,.7);
+  color: white;
+  padding: 1%;
+  overflow: auto;
+  height: 60vh;
+  border:5px solid black;
+  border-top-left-radius: .5em;
+  border-top-right-radius: .5em;
+  border-bottom: none;
+
+}
+table{
+  width: 100%;
+}
+.container h1{
+  color: white;
+}
+th{
+  font-size: 22px;
+  font-family: brass;
+}
+td{
+  font-family: brass;
+}
+.count{
+  background-color: rgba(0,0,0,.7);
+  color: white;
+  font-family: brass;
+  border:5px solid black;
+  border-top: none;
+  padding: 1%;
+  display: none;
+  border-top-left-radius: 0em;
+  border-top-right-radius: 0em;
+  border-bottom-left-radius: .5em;
+  border-bottom-right-radius: .5em;
+}
+.myimg{
+  max-width: 100%;
+  height: auto;
+}
+.mycontainer{
+  margin: 0 auto;
+}
+@media only screen and (max-width: 500px) {
+  .slides img{
+    width: 100%;
+  }
+}
