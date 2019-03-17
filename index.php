@@ -39,7 +39,7 @@
           <img src="assets/slide5.jpg" alt="">
         </div>
         <div class="marquee">
-          <marquee direction="down" width="150px" height="150px"><img src="assets/logoalphaS.png"></marquee>
+          <marquee direction="" width="292px" height="100px"><img src="assets/logoalphaS.png"></marquee>
         </div>
       </div>
     </div>
@@ -55,6 +55,7 @@
     showSlides();
       $(document).ready(function(){
         $("#test li:eq(0)").addClass("active");
+        // document.write(screen.width);
       })
       function showSlides() {
         var i;

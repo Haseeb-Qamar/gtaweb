@@ -15,13 +15,14 @@ html, body, .container{
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: black;
+  background: rgba(52, 58, 64, .0);
 
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
   background: rgba(52, 58, 64, .5);
+  border: 2.5px solid black;
   border-radius: 1em;
 }
 
@@ -40,7 +41,7 @@ margin: 0 auto;
 /* border: 5px solid green; */
 
 position: absolute;
-left: 65px;
+left: 15px;
 top: -30px;
   /* display: none; */
 
@@ -48,8 +49,8 @@ top: -30px;
 .marquee{
   position: absolute;
   bottom: 0px;
-  left: 130px;
-
+  left: 0px;
+  /* border: 1px dotted red; */
   color: white;
   /* border: 1px solid white; */
 
@@ -60,8 +61,8 @@ top: -30px;
 .box{
   background-color: rgba(52, 58, 64, 1);
   border: 3px solid black;
-  width: 400px;
-  height: 400px;
+  width: 300px;
+  height: 350px;
   margin-top: 15%;
   position: relative;
   border-radius: 1em;
@@ -144,4 +145,12 @@ td{
   .slides img{
     width: 100%;
   }
+}
+@media only screen and (max-width: 500px) {
+  .slides img{
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 330px) {
+
 }
